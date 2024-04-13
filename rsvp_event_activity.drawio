@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T11:52:00.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.2.5" etag="rB7Me17yq94mfFy2eqOY" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T20:34:27.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="Ftcc9ZokxGdeD2nObkLS" version="24.2.5" type="github">
   <diagram name="Page-1" id="TyaBgu1agD6pws7YxjKI">
-    <mxGraphModel>
+    <mxGraphModel dx="1682" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-10" value="Event Management" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="210" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="P02ZNdNzoUeAUOKUxui0-10" source="P02ZNdNzoUeAUOKUxui0-9" target="P02ZNdNzoUeAUOKUxui0-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-9" value="Update status in database" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="P02ZNdNzoUeAUOKUxui0-10">
+          <mxGeometry x="40" y="210.0000000000001" width="128.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#0D0D0D;" vertex="1" parent="P02ZNdNzoUeAUOKUxui0-10">
+          <mxGeometry x="89.38" y="40.000000000000114" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-18" value="User" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="70" width="210" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#0D0D0D;" vertex="1" parent="P02ZNdNzoUeAUOKUxui0-18">
+          <mxGeometry x="89.99000000000022" y="30.000000000000114" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="P02ZNdNzoUeAUOKUxui0-18" source="P02ZNdNzoUeAUOKUxui0-3" target="P02ZNdNzoUeAUOKUxui0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-3" value="Select Event" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="P02ZNdNzoUeAUOKUxui0-18">
+          <mxGeometry x="51.239999999999995" y="120.00000000000011" width="107.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="P02ZNdNzoUeAUOKUxui0-18" source="P02ZNdNzoUeAUOKUxui0-1" target="P02ZNdNzoUeAUOKUxui0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-8" value="Choose RSVP status" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="P02ZNdNzoUeAUOKUxui0-18">
+          <mxGeometry x="40.61999999999999" y="210.0000000000001" width="128.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P02ZNdNzoUeAUOKUxui0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P02ZNdNzoUeAUOKUxui0-8" target="P02ZNdNzoUeAUOKUxui0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
