@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-04-13T20:39:59.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.2.5" etag="lJXFjURjSUZlKmK5bAPl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-13T20:44:57.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="4jcTpaDCZBQ6OoLLqZgY" version="24.2.5" type="github">
   <diagram name="Page-1" id="KL4q_usjUKb88x-7Kzjw">
-    <mxGraphModel>
+    <mxGraphModel dx="1729" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uTfFVBP2HreTcrMpOROW-1" value="User" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="159.9999999999999" width="425" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-1">
+          <mxGeometry x="297.5" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uTfFVBP2HreTcrMpOROW-1" source="uTfFVBP2HreTcrMpOROW-3" target="uTfFVBP2HreTcrMpOROW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-3" value="Select Event" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-1">
+          <mxGeometry x="220" y="100" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-1" source="uTfFVBP2HreTcrMpOROW-2" target="uTfFVBP2HreTcrMpOROW-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312.5" y="40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-5" value="Click Save changes" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-1">
+          <mxGeometry x="30" y="340" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-1" source="uTfFVBP2HreTcrMpOROW-23" target="uTfFVBP2HreTcrMpOROW-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-1" source="uTfFVBP2HreTcrMpOROW-8" target="uTfFVBP2HreTcrMpOROW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-8" value="Get prompt from to&lt;div&gt;&amp;nbsp;enter details&lt;/div&gt;" style="html=1;shape=mxgraph.sysml.accEvent;strokeWidth=2;whiteSpace=wrap;align=center;rotation=0;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-1">
+          <mxGeometry x="20" y="100" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-23" value="Clicks Edit Event" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-1">
+          <mxGeometry x="220" y="205" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-1" source="uTfFVBP2HreTcrMpOROW-48" target="uTfFVBP2HreTcrMpOROW-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-48" value="Enter Details&lt;div&gt;(name, date, time, description)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-1">
+          <mxGeometry x="220" y="335" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-9" value="User Management" style="swimlane;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="159.9999999999999" width="380" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-10" value="Checks if user entered all details" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-9">
+          <mxGeometry x="170" y="340" width="187.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-9" source="uTfFVBP2HreTcrMpOROW-13" target="uTfFVBP2HreTcrMpOROW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-12" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTfFVBP2HreTcrMpOROW-11">
+          <mxGeometry x="-0.0605" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-9">
+          <mxGeometry x="238.75" y="205" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-9" source="uTfFVBP2HreTcrMpOROW-10" target="uTfFVBP2HreTcrMpOROW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-15" value="Prompts user to&amp;nbsp;&lt;div&gt;enter all details&lt;/div&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=0;rotation=0;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-9">
+          <mxGeometry x="201.25" y="100" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="uTfFVBP2HreTcrMpOROW-9" source="uTfFVBP2HreTcrMpOROW-13" target="uTfFVBP2HreTcrMpOROW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-17" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uTfFVBP2HreTcrMpOROW-16">
+          <mxGeometry x="-0.0727" y="5" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="uTfFVBP2HreTcrMpOROW-9" source="uTfFVBP2HreTcrMpOROW-19" target="uTfFVBP2HreTcrMpOROW-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-19" value="Updates event in the database" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-9">
+          <mxGeometry x="20" y="255" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#0D0D0D;" vertex="1" parent="uTfFVBP2HreTcrMpOROW-9">
+          <mxGeometry x="95" y="400" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="uTfFVBP2HreTcrMpOROW-5" target="uTfFVBP2HreTcrMpOROW-10" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTfFVBP2HreTcrMpOROW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=15;entryDy=0;entryPerimeter=0;" edge="1" source="uTfFVBP2HreTcrMpOROW-15" target="uTfFVBP2HreTcrMpOROW-8" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
